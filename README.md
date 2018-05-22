@@ -5,7 +5,7 @@ cloud-snark
 
 Chrome extension that replaces occurrences of 'private cloud' with 'datacentre' and 'hybrid cloud' with 'datacentre connected to Azure ActiveDirectory'.
 
-[Direct download of crx file](REPLACE THIS LINK)
+[Direct download of crx file](https://github.com/willh/cloud-snark/blob/master/CloudSnark.crx)
 
 
 Installation

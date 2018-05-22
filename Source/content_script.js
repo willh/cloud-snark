@@ -1,5 +1,3 @@
-console.log("HELLO WORLD");
-
 function walk(rootNode)
 {
     // Find all the text nodes in rootNode
@@ -90,4 +88,3 @@ function walkAndObserve(doc) {
     }
 }
 walkAndObserve(document);
-console.log("DONE WORLD");
