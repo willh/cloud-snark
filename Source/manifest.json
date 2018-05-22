@@ -1,8 +1,9 @@
 {
 	"manifest_version": 2,
-	"name": "Cloud To Butt",
+	"name": "Cloud Snark",
 	"version": "1.0",
-	"description": "Replaces the text 'the cloud' with 'my butt'.",
+	"description": "Replaces the text 'private cloud' with 'datacenter'.",
+	"author": "Will Hamill",
 	"content_scripts": 
 	[
 		{
@@ -10,6 +11,20 @@
 			"js": ["content_script.js"],
 			"run_at": "document_end"
 		}
-	]
+	],
+	"page_action": {
+    "default_icon": {
+      "32": "icon32.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    }
+  },
+  "icons": {
+      "32": "icon32.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+  },
+  "permissions": [
+   "activeTab"
+   ]
 }
-
